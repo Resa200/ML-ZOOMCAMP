@@ -57,11 +57,12 @@ Run `python Q3.py` in any command line
     Run `docker images` 
     Check the SIZE column
         * Answer: **125MB**
-        ![img](docker-pull.jpg)
+        * ![img](docker-pull.jpg)
 
 ## Dockerfile
 
 * Now create your own Dockerfile based on the image we prepared.
+
         * Check `Dockerfile`
 
 
@@ -69,18 +70,20 @@ Run `python Q3.py` in any command line
 
 *Let's run your docker container!*
 **Make sure you are in the directory where your Dockerfile is**
-Run `docker build -t card-prediction .`
-Run `docker run -it -p 9696:9696 card-prediction:latest`
-![img](docker-run.jpg)
+* Run `docker build -t card-prediction .`
+
+* Run `docker run -it -p 9696:9696 card-prediction:latest`
+
+* ![img](docker-run.jpg)
 
 After running it, score this client once again:
     *client = {"reports": 0, "share": 0.245, "expenditure": 3.438, "owner": "yes"}*
 
-In a different command prompt: Run `python Q6.py`
- or 
- Run the cells in `Q6.ipynb`
+* In a different command prompt: Run `python Q6.py`
+ * or 
+ * Run the cells in `Q6.ipynb`
 
-![img](card-pred.jpg)
+* ![img](card-pred.jpg)
 
 * Answer: **0.769**
 
