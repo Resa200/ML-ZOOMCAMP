@@ -63,7 +63,7 @@ Run `python Q3.py` in any command line
 
 * Now create your own Dockerfile based on the image we prepared.
 
-        * Check `Dockerfile`
+    * Check `Dockerfile`
 
 
 # Question 6
