@@ -5,7 +5,7 @@
 * Use --version to find out
 
 Run `pipenv --version`
-Answer: **pipenv, version 2022.9.24**
+* Answer: **pipenv, version 2022.9.24**
 
 
 # Question 2
@@ -15,7 +15,7 @@ Answer: **pipenv, version 2022.9.24**
 
 Run `pipenv install scikit-learn == 1.0.2`
 
-Answer: first hash **"sha256:08ef968f6b72033c16c479c966bf37ccd49b06ea91b765e1cc27afefe723920b"**
+* Answer: first hash **"sha256:08ef968f6b72033c16c479c966bf37ccd49b06ea91b765e1cc27afefe723920b"**
 
 
 # Question 3
@@ -29,7 +29,7 @@ Answer: first hash **"sha256:08ef968f6b72033c16c479c966bf37ccd49b06ea91b765e1cc2
         *{"reports": 0, "share": 0.001694, "expenditure": 0.12, "owner": "yes"}*
 
 Run `python Q3.py` in any command line
-Answer: **0.162**
+* Answer: **0.162**
 
 # Question 4
 
@@ -44,11 +44,11 @@ Answer: **0.162**
 * Run `pipenv install flask, waitress`
 * Run `pipenv shell` to activate environment
 * Run `python Q4.py` which contains the Flask script
-* Run ![img]('waitress.jpg') 
+* Run ![img](waitress.jpg) 
 * Run `python Q4_requests.py`
-![img]('score.jpg')
+![img](score.jpg)
 
-Answer: **0.928**
+* Answer: **0.928**
 
 # Question 5
 
@@ -56,8 +56,8 @@ Answer: **0.928**
     * So what's the size of this base image?
     Run `docker images` 
     Check the SIZE column
-        Answer: **125MB**
-        ![img]('docker-pull.jpg')
+        * Answer: **125MB**
+        ![img](docker-pull.jpg)
 
 ## Dockerfile
 
@@ -71,7 +71,7 @@ Answer: **0.928**
 **Make sure you are in the directory where your Dockerfile is**
 Run `docker build -t card-prediction .`
 Run `docker run -it -p 9696:9696 card-prediction:latest`
-![img]('docker-run.jpg')
+![img](docker-run.jpg)
 
 After running it, score this client once again:
     *client = {"reports": 0, "share": 0.245, "expenditure": 3.438, "owner": "yes"}*
@@ -80,7 +80,7 @@ In a different command prompt: Run `python Q6.py`
  or 
  Run the cells in `Q6.ipynb`
 
-![img]('card-pred.jpg')
+![img](card-pred.jpg)
 
-Answer: **0.769**
+* Answer: **0.769**
 
