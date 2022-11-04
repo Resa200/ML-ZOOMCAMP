@@ -5,11 +5,14 @@ import pickle
 import numpy as np
 
 #loading model
-model =  pickle.load(open('model.pkl', 'rb'))
+model = xgb.Booster()
+model.load_model("model.pkl")
 
 #Caching the model for faster loading
 @st.cache
 
+
+#defining function
 def predict(HighBP, HighChol, BMI, GenHlth, Age):
 
     if HighBP < 140 and HighBP > 0:
