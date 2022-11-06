@@ -92,5 +92,3 @@ if st.button('Predict Diabetes Risk'):
     prediction = predict(HighBP, HighChol, BMI, GenHlth, Age)
     st.write(prediction)
 
-if __name__== '__main__':
-     predict(HighBP, HighChol, BMI, GenHlth, Age)

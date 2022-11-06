@@ -1,4 +1,10 @@
-# Diabetes Prediction using Machine Learning
+# Diabetes Risk Prediction using Machine Learning
+
+## **Abstract**
+Diabetes Mellitus is among acute diseases, and lots of people are suffering from this disease. According to the International Diabetes Federation, 382 million people live with Diabetes worldwide. By 2035, the number of people living with Diabetes will be 592 million. Diabetes is a disease caused due to an increased level of blood glucose. This high blood glucose produces the symptoms of frequent urination, increased thirst, and increased hunger. Diabetes is one of the leading causes of blindness, kidney failure, amputations, heart failure and stroke. When we eat, our body turns food into sugars or glucose. At that point, our pancreas is supposed to release insulin. Insulin is key to opening our cells, allowing the glucose to enter and will enable us to use the glucose for energy. But with Diabetes, this system does not work.
+
+Type 1 and Type 2 diabetes are the most common forms of the disease, but there are also other kinds, such as gestational Diabetes, which occurs during pregnancy and other conditions. Machine learning is an emerging scientific field in data science dealing with how machines learn from experience. This project aims to develop a system which can perform early prediction of Diabetes for a patient with higher accuracy by combining the results of different machine learning techniques. More than five classification algorithms, such as Logistic Regression, Decision Trees, etc., were used to find the best model. The metric used to select the best model was the ROC AUC score.
+
 
 ## **About Data**
 
@@ -38,3 +44,8 @@
 * Model Deployment
 
 The first four steps were carried out in [Analysis](Analysis.ipynb)
+
+
+The model was deployed using **streamlit** in a **docker container**. 
+
+* Check [app.py](app.py) and [Dockerfile](Dockerfile)
