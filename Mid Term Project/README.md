@@ -49,3 +49,10 @@ The first four steps were carried out in [Analysis](Analysis.ipynb)
 The model was deployed using **streamlit** in a **docker container**. 
 
 * Check [app.py](app.py) and [Dockerfile](Dockerfile)
+
+![img](docker_build.jpg)
+
+## Deployed Streamlit Container App
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ppc7TC0dhk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
