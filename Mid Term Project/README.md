@@ -60,6 +60,7 @@ The model was deployed using **streamlit** in a **docker container**.
 ## How to Create something similar.
 
 * Fork the repo
+* Install the packages in the [requirements.txt](requirements.txt) or Run `pip install -r requirements.txt`
 * Start the Docker Desktop
 * In a command line and in the directory of your repo,
     * Run `docker build -t diabetes-prediction . `
