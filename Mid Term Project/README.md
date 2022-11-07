@@ -56,4 +56,12 @@ The model was deployed using **streamlit** in a **docker container**.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ppc7TC0dhk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## How to Create something similar.
 
+* Fork the repo
+* Start the Docker Desktop
+* In a command line and in the directory of your repo,
+    * Run `docker build -t diabetes-prediction . `
+    * Run `docker run -d -p 8501:8501 diabetes-prediction`
+*Check your Docker Desktop for the new container just created.
+* Open the Container and click on the **Open in Browser** icon at the top of the resulting page. 
